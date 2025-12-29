@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>AYA burger house</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav__header">
+                <div class="nav___logo">
+                    <a href="#">
+                        <img
+                         src="assets/logo-dark.png" 
+                        alt="logo" 
+                        class="nav__logo-dark"
+                        /> 
+                        <img
+                         src="assets/logo-white.png" 
+                        alt="logo" 
+                        class="nav__logo-white"
+                        /> 
+                    </a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-2-line"></i>
+
+                </div>
+            </div>
+            <ul class="nav__links" id="nav__links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#special">SPECIAL</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#event">EVENTs</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div class="section__container header__container" id="home">
+            <div class="header__image">
+                <img src="assets/header.png" alt="header">
+                </div>
+                <div class="header__content">
+                <h2>IT IS GOOD TIME FOR GREAT TASTE OF BURGER</h2>
+                <h1>BURGER<br /><span>week</span></h1>
+                </div>
+        </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+        <div class="banner__card">
+            <p>TRY IT OUT TODAY</p>
+            <h4>MOST DELECIOUS BURGER</h4>
+        </div>
+        <div class="banner__card">
+            <p>TRY IT OUT TODAY</p>
+            <h4>MORE FUN<br />MORE TASTE</h4>
+        </div>
+        <div class="banner__card">
+            <p>TRY IT OUY TODAY</p>
+            <h4>FRESH&CHILI</h4>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+        <h3>ALWAYS TASTEY BURGER</h3>
+        <h2 class="section__header">CHOOSE & ENJOY</h2>
+        <p class="section__description">
+        we have so many heartmelting burgers, 
+        with high quality (fresh, never-frozen, Angus), cooking style (flame-grilled, smashed), texture (juicy, crispy), core ingredients (brioche bun, bacon, fresh toppings),
+        and unique flavor profiles (smoky, spicy, sweet BBQ)
+        </p>
+        <div class="order__grid">
+            <div class="order__card">
+                <img src="assets/order-1.png" alt="order">
+                  <h4>CHIKEN BURGER</h4>
+                  <p>
+                    a juicy, seasoned patty (crispy or grilled) on a fresh bun with crisp lettuce,
+                    ripe tomato, tangy pickles, 
+                    and a signature sauce (like mayo or special sauce) for a satisfying mix of textures and flavors.
+                  </p>
+                  <button class="btn">ORDER NOW</button>
+                  </div>
+
+
+                   <div class="order__card">
+                 <img src="assets/order-2.png" alt="order">
+                  <h4>Veggie Delight Burger</h4>
+                  <p>
+                   Veggie Delight Burger is
+                   a plant-based burger featuring a savory patty topped with fresh, vibrant ingredients like lettuce, tomato, onion, creamy avocado, tangy sauces (tzatziki, yogurt),
+                   maybe some cheese, all served on a warm bun for a healthy and satisfying meal. 
+                  </p>
+                  <button class="btn">ORDER NOW</button>
+                  </div>
+
+                    <div class="order__card">
+                 <img src="assets/order-3.png" alt="order">
+                  <h4>BBQ burger</h4>
+                  <p>
+                   it is juicy patty, smoky/sweet/tangy sauce, melty cheese,
+                    crispy onions, and fresh toppings, amd it's "explosion" "smothered," "crispy," and "signature" satisfying experience, perfect for a hearty meal
+                  </p>
+                  <button class="btn">ORDER NOW</button>
+                  </div>
+
+            
+        </div>
+    </section>
+
+
+   <section class="section__container event__container" id="event">
+    <div class="event__content">
+        <div class="event__image">
+            <img src="assets/event.png" alt="event">
+        </div>
+        <div class="event__details">
+            <h3>Discover</h3>
+            <h2 class="section__header">UPCOMING EVENTs</h2>
+            <p class="section__description">
+                Welcome to the ultimate burger showdown! This section of the event guide is your passport to a world of towering patties, ooozy cheese, and secret sauces.
+                Sample unique creations from top local restaurants and food trucks as they battle for the coveted title of "Champion Burger".
+                You are the judge! Cast your vote for the People's Choice award using our official event app. Beyond the beef, enjoy craft brews, live music,
+                and a festive atmosphere. Come hungry and ready to discover your new favorite burger!
+            </p>
+        </div>
+
+    </div>
+
+   </section>
+
+   <section class="reservation" id="contact">
+    <div class="section__container reservation__container">
+        <h2>RESERVATION</h2>
+        <h2 class="section__header">BOOK YOUR TABLE</h2>
+        <form action="/">
+            <input type="text"placeholder="NAME"/>
+            <input type="email"placeholder="EMAIL"/>
+            <input type="date"placeholder="DATE"/>
+            <input type="time"placeholder="TIME"/>
+            <input type="number"placeholder="PEOPLE"/>
+            <button class="btn" type="submit">FIND TABLE</button>
+            </form>
+
+
+    </div>
+    <img src="assets/reservation-bg-1.png" 
+     alt="reservation"
+     class="reservation__bg-1"/>
+
+    <img src="assets/reservation-bg-2.png"
+    alt="reservation" 
+    class="reservation__bg-2"/>
+
+   </section>  
+   <footer class="footer">
+    <div class="section__container footer__container">
+        <div class="footer__logo">
+            <img src="assets/logo-white.png" alt="logo"/>
+
+        </div>
+        <div class="footer__content">
+            <p>
+                Welcome to Burger footer company , it is a big honor to have you , where passion for special footer,
+                genuie hospitality come together . Our story is one of the most delecious footers, we would like to have you in our resturant.
+                hobe to see you soon . 
+            </p>
+            <div>
+                <ul class="footer__links">
+
+                    <li>
+                        <span><i class="ri-map-pin-line"></i></span>
+                        Syria , Damascus, Shalaan street
+                    </li>
+                    <li>
+                        <span><i class="ri-map-pin-line"></i></span>
+                        Syria , Lattakia, Almazraa
+                    </li>
+                    <li>
+                        <span><i class="ri-mail-download-line"></i></span>
+                        info@burgerhouse.com
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-telegram-2-fill"></i></a>
+                    <a href="#"><i class="ri-whatsapp-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bar">
+        copyright @ 2026 web design by AYA . All rights reserved. 
+    </div>
+   </footer>
+
+ <script src="https://unpkg.com/scrollreveal"></script>
+ <script src="main.js"></script>
+</body>
+</html>
+
